@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Hardtekk Electribe</string>
+    <string name="app_short_name">H-Electribe</string>
+
+    <!-- UI Labels -->
+    <string name="bpm_label">BPM</string>
+    <string name="play">PLAY</string>
+    <string name="stop">STOP</string>
+    <string name="rec">REC</string>
+    <string name="pattern">PATTERN</string>
+    <string name="mode_trigger">TRIGGER</string>
+    <string name="mode_sequencer">SEQUENCER</string>
+    <string name="mode_slicer">SLICER</string>
+    <string name="filter_lpf">LPF</string>
+    <string name="filter_hpf">HPF</string>
+    <string name="pitch">PITCH</string>
+    <string name="distortion">DRIVE</string>
+    <string name="delay">DELAY</string>
+    <string name="master_volume">MASTER</string>
+    <string name="load_sample">LOAD</string>
+    <string name="slice_start">START</string>
+    <string name="slice_end">END</string>
+    <string name="assign_to_pad">ASSIGN</string>
+    <string name="preview_slice">PREVIEW</string>
+    <string name="load_song">LOAD SONG</string>
+    <string name="save_pattern">SAVE</string>
+    <string name="clear_pattern">CLEAR</string>
+    <string name="copy_pattern">COPY</string>
+    <string name="paste_pattern">PASTE</string>
+
+    <!-- Pad Labels -->
+    <string name="pad_1">1</string>
+    <string name="pad_2">2</string>
+    <string name="pad_3">3</string>
+    <string name="pad_4">4</string>
+    <string name="pad_5">5</string>
+    <string name="pad_6">6</string>
+    <string name="pad_7">7</string>
+    <string name="pad_8">8</string>
+    <string name="pad_9">9</string>
+    <string name="pad_10">10</string>
+    <string name="pad_11">11</string>
+    <string name="pad_12">12</string>
+    <string name="pad_13">13</string>
+    <string name="pad_14">14</string>
+    <string name="pad_15">15</string>
+    <string name="pad_16">16</string>
+
+    <!-- Sound Names -->
+    <string name="sound_kick_hardtekk">Hardtekk Kick</string>
+    <string name="sound_kick_gabber">Gabber Kick</string>
+    <string name="sound_bass_offbeat">Offbeat Bass</string>
+    <string name="sound_snare">Snare</string>
+    <string name="sound_clap">Clap</string>
+    <string name="sound_hat_closed">Closed HH</string>
+    <string name="sound_hat_open">Open HH</string>
+    <string name="sound_acid_stab">Acid Stab</string>
+    <string name="sound_ride">Ride</string>
+    <string name="sound_kick_909">909 Kick</string>
+    <string name="sound_kick_808">808 Kick</string>
+    <string name="sound_perc_1">Perc 1</string>
+    <string name="sound_perc_2">Perc 2</string>
+    <string name="sound_fx_1">FX 1</string>
+    <string name="sound_fx_2">FX 2</string>
+    <string name="sound_custom">Custom</string>
+
+    <!-- Tooltips/Content Descriptions -->
+    <string name="cd_play">Play pattern</string>
+    <string name="cd_stop">Stop playback</string>
+    <string name="cd_record">Record live input</string>
+    <string name="cd_bpm_up">Increase BPM</string>
+    <string name="cd_bpm_down">Decrease BPM</string>
+    <string name="cd_pattern_prev">Previous pattern</string>
+    <string name="cd_pattern_next">Next pattern</string>
+    <string name="cd_pad">Trigger pad</string>
+    <string name="cd_knob">Adjust parameter</string>
+    <string name="cd_mode_trigger">Trigger mode</string>
+    <string name="cd_mode_sequencer">Step sequencer mode</string>
+    <string name="cd_mode_slicer">Sample slicer mode</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_loading_samples">Generating built-in sounds…</string>
+    <string name="dialog_loading_waveform">Analyzing waveform…</string>
+    <string name="dialog_error_load">Failed to load audio file</string>
+    <string name="dialog_error_save">Failed to save pattern</string>
+    <string name="dialog_confirm_clear">Clear current pattern?</string>
+    <string name="dialog_yes">YES</string>
+    <string name="dialog_no">NO</string>
+
+    <!-- Accessibility -->
+    <string name="a11y_pad_triggered">Pad %1$d triggered</string>
+    <string name="a11y_step_active">Step %1$d active</string>
+    <string name="a11y_bpm_changed">BPM changed to %1$d</string>
+    <string name="a11y_pattern_changed">Pattern changed to %1$d</string>
+</resources>

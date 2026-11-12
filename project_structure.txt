@@ -1,0 +1,84 @@
+hardtekk-electribe/
+├── .github/
+│   └── workflows/
+│       └── build_apk.yml
+├── gradle/
+│   └── wrapper/
+│       └── gradle-wrapper.properties
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/hardtekk/electribe/
+│   │   │   │   ├── MainActivity.kt
+│   │   │   │   ├── audio/
+│   │   │   │   │   ├── AudioEngine.kt
+│   │   │   │   │   ├── SoundGenerator.kt
+│   │   │   │   │   ├── SamplePlayer.kt
+│   │   │   │   │   ├── DSP/
+│   │   │   │   │   │   ├── BiquadFilter.kt
+│   │   │   │   │   │   ├── Distortion.kt
+│   │   │   │   │   │   ├── Delay.kt
+│   │   │   │   │   │   └── PitchShifter.kt
+│   │   │   │   ├── sequencer/
+│   │   │   │   │   ├── SequencerEngine.kt
+│   │   │   │   │   ├── PatternManager.kt
+│   │   │   │   │   └── StepSequencer.kt
+│   │   │   │   ├── ui/
+│   │   │   │   │   ├── MainScreen.kt
+│   │   │   │   │   ├── components/
+│   │   │   │   │   │   ├── TriggerPad.kt
+│   │   │   │   │   │   ├── RotaryKnob.kt
+│   │   │   │   │   │   ├── TransportControls.kt
+│   │   │   │   │   │   ├── BPMDisplay.kt
+│   │   │   │   │   │   ├── PatternSelector.kt
+│   │   │   │   │   │   ├── ModeSelector.kt
+│   │   │   │   │   │   ├── WaveformView.kt
+│   │   │   │   │   │   └── SliceMarkers.kt
+│   │   │   │   │   ├── screens/
+│   │   │   │   │   │   ├── TriggerModeScreen.kt
+│   │   │   │   │   │   ├── StepSequencerScreen.kt
+│   │   │   │   │   │   └── SampleSlicerScreen.kt
+│   │   │   │   │   └── theme/
+│   │   │   │   │       ├── Theme.kt
+│   │   │   │   │   ├── Color.kt
+│   │   │   │   │   ├── Type.kt
+│   │   │   │   │   └── Shape.kt
+│   │   │   │   ├── model/
+│   │   │   │   │   ├── PadConfig.kt
+│   │   │   │   │   ├── Pattern.kt
+│   │   │   │   │   ├── SampleData.kt
+│   │   │   │   │   └── AppState.kt
+│   │   │   │   ├── utils/
+│   │   │   │   │   ├── FileUtils.kt
+│   │   │   │   │   ├── AudioFileLoader.kt
+│   │   │   │   │   └── WavWriter.kt
+│   │   │   │   └── storage/
+│   │   │   │       └── SampleRepository.kt
+│   │   │   ├── res/
+│   │   │   │   ├── values/
+│   │   │   │   │   ├── strings.xml
+│   │   │   │   │   ├── colors.xml
+│   │   │   │   │   └── themes.xml
+│   │   │   │   ├── drawable/
+│   │   │   │   │   ├── ic_launcher_foreground.xml
+│   │   │   │   │   ├── ic_launcher_background.xml
+│   │   │   │   │   └── adaptive_icon_background.xml
+│   │   │   │   ├── mipmap-anydpi-v26/
+│   │   │   │   │   └── ic_launcher.xml
+│   │   │   │   └── xml/
+│   │   │   │       └── file_paths.xml
+│   │   │   └── AndroidManifest.xml
+│   │   └── androidTest/
+│   │       └── java/com/hardtekk/electribe/
+│   │           └── ExampleInstrumentedTest.kt
+│   │   └── test/
+│   │       └── java/com/hardtekk/electribe/
+│   │           └── ExampleUnitTest.kt
+│   ├── build.gradle.kts
+│   └── proguard-rules.pro
+├── build.gradle.kts
+├── settings.gradle.kts
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+└── README.md

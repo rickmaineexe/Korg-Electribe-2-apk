@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Hardtekk Pink-Skin Palette -->
+    <!-- Primary Neon Pink -->
+    <color name="neon_pink">#FF007F</color>
+    <color name="neon_pink_bright">#FF3399</color>
+    <color name="neon_pink_dim">#CC0066</color>
+    <color name="neon_pink_glow">#FF007F</color>
+
+    <!-- Magenta Accents -->
+    <color name="magenta">#FF00FF</color>
+    <color name="magenta_bright">#FF33FF</color>
+    <color name="magenta_dim">#CC00CC</color>
+
+    <!-- Dark Anthracite Backgrounds -->
+    <color name="anthracite">#121212</color>
+    <color name="anthracite_light">#1A1A1A</color>
+    <color name="anthracite_lighter">#222222</color>
+    <color name="anthracite_card">#1E1E1E</color>
+    <color name="anthracite_elevated">#2A2A2A</color>
+
+    <!-- LED Status Colors -->
+    <color name="led_green">#00FF44</color>
+    <color name="led_red">#FF0033</color>
+    <color name="led_amber">#FFB300</color>
+    <color name="led_blue">#00B3FF</color>
+    <color name="led_white">#FFFFFF</color>
+    <color name="led_off">#333333</color>
+
+    <!-- UI Grays -->
+    <color name="gray_dark">#333333</color>
+    <color name="gray_medium">#555555</color>
+    <color name="gray_light">#888888</color>
+    <color name="gray_border">#444444</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#CCCCCC</color>
+    <color name="text_muted">#888888</color>
+    <color name="text_on_pink">#000000</color>
+    <color name="text_on_dark">#FFFFFF</color>
+
+    <!-- Semantic Colors -->
+    <color name="color_primary">@color/neon_pink</color>
+    <color name="color_primary_variant">@color/neon_pink_dim</color>
+    <color name="color_secondary">@color/magenta</color>
+    <color name="color_secondary_variant">@color/magenta_dim</color>
+    <color name="color_background">@color/anthracite</color>
+    <color name="color_surface">@color/anthracite_card</color>
+    <color name="color_error">@color/led_red</color>
+    <color name="color_on_primary">@color/text_on_pink</color>
+    <color name="color_on_secondary">@color/text_on_pink</color>
+    <color name="color_on_background">@color/text_on_dark</color>
+    <color name="color_on_surface">@color/text_on_dark</color>
+    <color name="color_on_error">@color/text_on_pink</color>
+
+    <!-- Pad Colors (16 distinct but cohesive colors) -->
+    <color name="pad_1">#FF007F</color>  <!-- Neon Pink -->
+    <color name="pad_2">#FF3399</color>  <!-- Bright Pink -->
+    <color name="pad_3">#FF00CC</color>  <!-- Deep Magenta -->
+    <color name="pad_4">#FF00FF</color>  <!-- Magenta -->
+    <color name="pad_5">#CC00FF</color>  <!-- Purple Magenta -->
+    <color name="pad_6">#9900FF</color>  <!-- Violet -->
+    <color name="pad_7">#6600FF</color>  <!-- Electric Purple -->
+    <color name="pad_8">#3300FF</color>  <!-- Blue Violet -->
+    <color name="pad_9">#0033FF</color>  <!-- Electric Blue -->
+    <color name="pad_10">#0066FF</color> <!-- Bright Blue -->
+    <color name="pad_11">#0099FF</color> <!-- Sky Blue -->
+    <color name="pad_12">#00CCFF</color> <!-- Cyan -->
+    <color name="pad_13">#00FFCC</color> <!-- Teal -->
+    <color name="pad_14">#00FF99</color> <!-- Spring Green -->
+    <color name="pad_15">#00FF66</color> <!-- Neon Green -->
+    <color name="pad_16">#00FF33</color> <!-- Bright Green -->
+
+    <!-- Pad Pressed/Active Variants -->
+    <color name="pad_1_active">#FF66B2</color>
+    <color name="pad_2_active">#FF66B2</color>
+    <color name="pad_3_active">#FF66E5</color>
+    <color name="pad_4_active">#FF66FF</color>
+    <color name="pad_5_active">#E566FF</color>
+    <color name="pad_6_active">#B266FF</color>
+    <color name="pad_7_active">#9966FF</color>
+    <color name="pad_8_active">#6699FF</color>
+    <color name="pad_9_active">#66B2FF</color>
+    <color name="pad_10_active">#66CCFF</color>
+    <color name="pad_11_active">#66E5FF</color>
+    <color name="pad_12_active">#66FFFF</color>
+    <color name="pad_13_active">#66FFE5</color>
+    <color name="pad_14_active">#66FFB2</color>
+    <color name="pad_15_active">#66FF99</color>
+    <color name="pad_16_active">#66FF66</color>
+
+    <!-- Knob Colors -->
+    <color name="knob_track">#333333</color>
+    <color name="knob_indicator">@color/neon_pink</color>
+    <color name="knob_indicator_active">@color/neon_pink_bright</color>
+
+    <!-- Sequencer LED Colors -->
+    <color name="seq_led_active">@color/neon_pink</color>
+    <color name="seq_led_current">@color/led_green</color>
+    <color name="seq_led_inactive">#222222</color>
+    <color name="seq_led_dim">#111111</color>
+
+    <!-- Waveform Colors -->
+    <color name="waveform_bg">@color/anthracite</color>
+    <color name="waveform_wave">@color/neon_pink</color>
+    <color name="waveform_playhead">@color/led_green</color>
+    <color name="waveform_marker_start">@color/led_green</color>
+    <color name="waveform_marker_end">@color/led_red</color>
+    <color name="waveform_selection">#FF007F44</color>
+
+    <!-- Divider -->
+    <color name="divider">#333333</color>
+
+    <!-- Shadow -->
+    <color name="shadow">#000000</color>
+    <color name="glow_pink">#FF007F</color>
+    <color name="glow_green">#00FF44</color>
+</resources>

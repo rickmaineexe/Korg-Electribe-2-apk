@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <include domain="sharedpref" path="."/>
+    <exclude domain="sharedpref" path="device_id.xml"/>
+    <include domain="database" path="."/>
+    <include domain="file" path="patterns"/>
+    <include domain="file" path="samples"/>
+    <exclude domain="file" path="samples/user"/>
+</full-backup-content>

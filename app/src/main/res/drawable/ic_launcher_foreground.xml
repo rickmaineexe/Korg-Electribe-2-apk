@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#121212"
+        android:pathData="M54,54m-54,0a54,54 0,1 1,108 0a54,54 0,1 1,-108 0" />
+
+    <!-- Outer ring -->
+    <path
+        android:fillColor="#FF007F"
+        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+
+    <!-- Inner dark circle -->
+    <path
+        android:fillColor="#121212"
+        android:pathData="M54,54m-42,0a42,42 0,1 1,84 0a42,42 0,1 1,-84 0" />
+
+    <!-- 16 Pad Grid Representation -->
+    <!-- Row 1 -->
+    <path android:fillColor="#FF007F" android:pathData="M22,22h12v12h-12z"/>
+    <path android:fillColor="#FF3399" android:pathData="M36,22h12v12h-12z"/>
+    <path android:fillColor="#FF00CC" android:pathData="M50,22h12v12h-12z"/>
+    <path android:fillColor="#FF00FF" android:pathData="M64,22h12v12h-12z"/>
+    <path android:fillColor="#CC00FF" android:pathData="M78,22h12v12h-12z"/>
+    <path android:fillColor="#9900FF" android:pathData="M92,22h12v12h-12z"/>
+
+    <!-- Row 2 -->
+    <path android:fillColor="#6600FF" android:pathData="M22,38h12v12h-12z"/>
+    <path android:fillColor="#3300FF" android:pathData="M36,38h12v12h-12z"/>
+    <path android:fillColor="#0033FF" android:pathData="M50,38h12v12h-12z"/>
+    <path android:fillColor="#0066FF" android:pathData="M64,38h12v12h-12z"/>
+    <path android:fillColor="#0099FF" android:pathData="M78,38h12v12h-12z"/>
+    <path android:fillColor="#00CCFF" android:pathData="M92,38h12v12h-12z"/>
+
+    <!-- Center Knob representation -->
+    <path
+        android:fillColor="#FF007F"
+        android:pathData="M54,70m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" />
+
+    <!-- Knob indicator line -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,60 L54,65"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- Text "HARDTEKK" at bottom -->
+    <!-- We'll use a simple representation since vector text is complex -->
+</vector>
