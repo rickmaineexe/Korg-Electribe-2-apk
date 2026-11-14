@@ -2,7 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.devtools.ksp")
-    id("org.jetbrains.kotlin.plugin.seralization") version "1.9.22"
+    id("org.jetbrains.kotlin.plugin.seralization")
 }
 
 android {
